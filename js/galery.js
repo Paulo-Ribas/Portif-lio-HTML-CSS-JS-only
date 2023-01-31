@@ -20,7 +20,7 @@ function Proximo() {
         count = 0
         
     }
-    numeration.innerHTML = count+1 + '/5'
+    numeration.innerHTML = count+1 + '/'+ array1.length
     imgGalery.setAttribute('src', array1[count])
     if (imgGalery.hasAttribute('anterior') || imgGalery.hasAttribute('anterior2')) {
         imgGalery.removeAttribute('anterior')
