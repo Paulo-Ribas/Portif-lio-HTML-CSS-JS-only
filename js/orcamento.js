@@ -13,7 +13,6 @@ const seguro = {
 
 
 
-
     },
     incluirDesgin: 0,
     PaginaValor: 150,
